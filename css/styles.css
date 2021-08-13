@@ -52,3 +52,7 @@
 #output {
   display: none;
 }
+
+.output {
+  padding-top: 2em;
+}
