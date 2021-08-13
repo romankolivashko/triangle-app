@@ -5,18 +5,52 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Change Me!</title>
+  <title>Triangle Tracker</title>
 </head>
 <body>
   <!-- <h3>Change Me!</h3> -->
-  <div class="jumbotron jumbotron-fluid">
+  <!-- <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-5">Survey time!</h1>
       <p class="lead">This is a sentence that occupies the entire horizontal space of its parent.</p>
     </div>
   </div>
   
-<p> Some text goes here</p>
+<p> Some text goes here</p> -->
+
+<div class="container">
+  <h1>Triangle Tracker</h1>
+  <form id="calculate">
+    <div class="form-group">
+      <label for="sideA">1st side length:</label>
+      <input id="sideA" class="form-control" type="text">
+    </div>
+
+    <div class="form-group">
+      <label for="sideB">2nd side length:</label>
+      <input id="sideB" class="form-control" type="text">
+    </div>
+
+    <div class="form-group">
+      <label for="sideC">3nd side length:</label>
+      <input id="sideC" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn">Calculate!</button>
+  </form>
+  <div id="equal">
+    <p>equal should be here</p>
+  </div>
+
+  <div id="isos">
+    <p>Isos should be here</p>
+  </div>
+
+  <div id="scal">
+    <p>scal should be here</p>
+  </div>
+  
+</div>
 
 </body>
+
 </html>

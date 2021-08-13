@@ -8,3 +8,47 @@
 .btn {
   margin: 7px;
 }
+
+.container {
+  /* background-color: maroon; */
+  max-width: 700px;
+  margin: auto;
+}
+
+.inner-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.card-showing {
+  display: block;
+}
+
+.card-hidden {
+  display: none;
+}
+
+.btn {
+  margin: 7px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+#equal {
+  display: none;
+}
+
+#isos {
+  display: none;
+}
+
+#scal {
+  display: none;
+}
+
+#output {
+  display: none;
+}
